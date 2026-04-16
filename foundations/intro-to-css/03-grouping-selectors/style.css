@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.bright{
+    background-color: yellow;
+}
+
+.dark, .bright{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
