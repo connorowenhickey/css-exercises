@@ -28,9 +28,11 @@ body {
   background: green;
   color: white;
   font-weight: bold;
+  display:
 } 
 
 div.text {
+  background-color: lawngreen;
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
@@ -38,7 +40,15 @@ div.text {
 
 
 .text.child {
+  background-color: aqua;
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
+  padding: 20px;
+}
+
+*{
+  padding: 5px;
+  border: 7px dashed purple;
+  margin:0px;
 }
